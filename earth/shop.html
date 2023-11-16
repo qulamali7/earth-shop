@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-content">
+        <img
+          src="https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/11/EARTH-STORE-200x35.png"
+          alt=""
+        />
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Shop</a></li>
+          <li><a href="">Contact</a></li>
+          <li>
+            <i class="fa-solid fa-bag-shopping"><sup>0</sup></i>
+          </li>
+          <li><i class="fa-solid fa-user"></i></li>
+        </ul>
+      </div>
+      <div class="nav-response">
+        <img
+          src="https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/11/EARTH-STORE-200x35.png"
+          alt=""
+        />
+        <i class="fa-solid fa-bag-shopping"><sup>0</sup></i>
+        <button class="btn-menuBar"><i class="fa-solid fa-bars"></i></button>
+      </div>
+      <div class="navMenu">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="">Shop</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </div>
+      <div class="aside-bar">
+        <div>
+          <h3>Shopping Cart</h3>
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+        <p>No products in the cart.</p>
+        <button>CONTINUE SHOPPING</button>
+      </div>
+    </nav>
+
+    <main>
+      <section id="shop">
+        <div class="search">
+          <div class="searchBar">
+            <input type="text" placeholder="Search products…" />
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+          </div>
+          <div class="range">
+            <div class="range-slider">
+              <span class="range-selected"></span>
+            </div>
+            <div class="range-input">
+              <input
+                type="range"
+                class="min"
+                min="0"
+                max="1000"
+                value="300"
+                step="10"
+              />
+              <input
+                type="range"
+                class="max"
+                min="0"
+                max="1000"
+                value="700"
+                step="10"
+              />
+            </div>
+            <div class="range-price">
+              <input type="number" name="min" value="300" />
+              <input type="number" name="max" value="700" />
+            </div>
+            <button>Reset</button>
+          </div>
+          <div class="category">
+            <h3>Categories</h3>
+            <p>Postcards <span>(6)</span></p>
+            <p>Posters <span>(6)</span></p>
+          </div>
+        </div>
+        <div class="shop-content">
+          <ul class="breadcrumb">
+            <li><a href="#">Home / </a></li>
+            <li><a href="#">Postcards </a></li>
+          </ul>
+          <h1>Postcards</h1>
+          <div class="selection">
+            <p>Showing all 12 results</p>
+            <select name="cars" id="cars">
+              <option value="Default">Default Sorting</option>
+              <option value="Popularity">Popularity</option>
+              <option value="Rating">Rating</option>
+              <option value="Latest">Latest</option>
+            </select>
+          </div>
+          <div class="poster-cards">
+            <div class="poster-card">
+              <div class="card-img">
+                <img
+                  src="https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/10/Poster5-1000x1000.jpg"
+                  alt=""
+                />
+                <div><i class="fa-solid fa-bag-shopping"></i></div>
+              </div>
+              <span>Posters</span>
+              <h2>Poster V1</h2>
+              <p>$23.99</p>
+            </div>
+            <div class="poster-card">
+              <div class="card-img">
+                <img
+                  src="https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/10/Poster6-1000x1000.jpg"
+                  alt=""
+                />
+                <div><i class="fa-solid fa-bag-shopping"></i></div>
+              </div>
+              <span>Posters</span>
+              <h2>Poster V2</h2>
+              <p>$17.99</p>
+            </div>
+            <div class="poster-card">
+              <div class="card-img">
+                <img
+                  src="https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/10/Poster4-1000x1000.jpg"
+                  alt=""
+                />
+                <div><i class="fa-solid fa-bag-shopping"></i></div>
+              </div>
+              <span>Posters</span>
+              <h2>Poster V3</h2>
+              <p>$14.99</p>
+            </div>
+            <div class="poster-card">
+              <div class="card-img">
+                <img
+                  src="https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/10/Poster6-1000x1000.jpg"
+                  alt=""
+                />
+                <div><i class="fa-solid fa-bag-shopping"></i></div>
+              </div>
+              <span>Posters</span>
+              <h2>Poster V2</h2>
+              <p>$17.99</p>
+            </div>
+            <div class="poster-card">
+              <div class="card-img">
+                <img
+                  src="https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/10/Poster6-1000x1000.jpg"
+                  alt=""
+                />
+                <div><i class="fa-solid fa-bag-shopping"></i></div>
+              </div>
+              <span>Posters</span>
+              <h2>Poster V2</h2>
+              <p>$17.99</p>
+            </div>
+            <div class="poster-card">
+              <div class="card-img">
+                <img
+                  src="https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/10/Poster6-1000x1000.jpg"
+                  alt=""
+                />
+                <div><i class="fa-solid fa-bag-shopping"></i></div>
+              </div>
+              <span>Posters</span>
+              <h2>Poster V2</h2>
+              <p>$17.99</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <ul class="footer-list">
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Shop</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+      <img
+        src="https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/11/EARTH-STORE-200x35.png"
+        alt=""
+      />
+      <p>Copyright © 2023 Planet Earth Store</p>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

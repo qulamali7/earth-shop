@@ -1,0 +1,156 @@
+nav {
+    border-bottom: 1px solid #e5e5e5;
+    .nav-content{
+        padding: 40px;
+        width: 80%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+
+            li {
+                a {
+                    color: #000;
+                    font-size: 17px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                }
+
+                i {
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+
+
+    .nav-response {
+        display: none;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+
+        button {
+            background-color: black;
+            padding: 10px 12px;
+            border-radius: 10px;
+
+            i {
+                font-size: 16px;
+                color: white;
+            }
+        }
+    }
+
+    .navMenu {
+        display: none;
+        width: 80%;
+        margin: auto;
+
+        ul {
+            li {
+                a {
+                    text-transform: uppercase;
+                    font-weight: 800;
+                    color: #2c541d;
+                    font-size: 15px;
+                    transition: 0.5s all ease;
+
+                    &:hover {
+                        color: rgba(255, 255, 255, 0.4);
+                    }
+                }
+            }
+        }
+    }
+
+    .show {
+        display: block;
+        transition: 0.5s all ease;
+    }
+    .aside-bar{
+        background-color: #fff;
+        height: 100vh;
+        top: 0;
+        right: 0;
+        width: 350px;
+        flex-direction: column;
+        position: fixed;
+        transition: 0.5s all ease;
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        div{
+            width: 300px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        button{
+            border: none;
+            background-color: #74a84a;
+            color: #000;
+            padding: 13px 20px;
+            transition: 0.5s all ease;
+            &:hover{
+                background-color: #2c541d;
+                color: #fff;
+            }
+        }
+    }
+    .show-aside{
+        width: 350px !important;
+        display: flex;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 562px) {
+        nav {
+            .nav-response {
+                padding: 10px;
+                display: flex;
+            }
+
+            .nav-content {
+                display: none
+            }
+        }
+    
+}
+
+
+@media (min-width: 562px) and (max-width: 768px) {
+
+        nav {
+            .nav-response {
+                padding: 10px;
+                display: flex;
+            }
+
+            .nav-content {
+                display: none
+            }
+        }
+}
+
+@media (min-width: 768px) and (max-width: 960px) {
+
+        nav {
+            .nav-response {
+                padding: 10px;
+                display: flex;
+            }
+
+            .nav-content {
+                display: none
+            }
+        }
+}
+
